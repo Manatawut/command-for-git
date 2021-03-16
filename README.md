@@ -1,1 +1,1 @@
-note for me and everyone
+note git for me and everyone
