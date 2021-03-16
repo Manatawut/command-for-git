@@ -1,0 +1,33 @@
+// 
+cd <project name>
+git init #Initialize git project
+git status #check for changes
+git add . #add file to commit
+git commit -m "comment" #save as. file version
+git checkout <commit-id> #change version project
+git reset --hard <commit-id> #delete -n commit
+git push --force #force update
+git log --all --decorate --oneline --graph 
+
+// branch
+git branch <branch name> #create branch
+git branch #check branch in project
+git checkout <branch> # jump to branch
+git checkout -b <branch> #create and jump
+
+// merge
+git merge <branch name> #Check เราอยู่ใน Branch ที่เราต้องการจะ merge เข้าไป
+
+// pull
+.
+.
+.
+add detail
+.
+.
+.
+
+// tag
+git tag -a <version name> -m "comment" #create tag
+git tag #check tags in project
+git  tag  -a  <version name>  <commit-id>  -m  "comment" #create name for commit
